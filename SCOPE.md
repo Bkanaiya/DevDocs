@@ -96,6 +96,7 @@ The following will **not** be built in the MVP:
 ---
 
 ## 5. Complete User Flow
+```
 Upload OpenAPI file
 ↓
 Parse & show list of endpoints
@@ -113,7 +114,7 @@ Show response + run schema validation
 If error or mismatch → Call AI for diagnosis
 ↓
 Save everything in History
-
+```
 ---
 
 ## 6. Locked Tech Stack
@@ -131,7 +132,7 @@ Save everything in History
 ---
 
 ## 7. Repository Structure
-
+```
 devdocs/
 ├── client/                 # Vite + React + TypeScript frontend
 ├── server/                 # Express + TypeScript backend
@@ -141,7 +142,7 @@ devdocs/
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
-
+```
 ---
 
 ## 8. Guiding Principles
